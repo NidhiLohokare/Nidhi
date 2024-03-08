@@ -1,0 +1,13 @@
+/* Define padding for buttons */
+.btn-col {
+    padding: 5px; /* Padding of 5px */
+  }
+  
+  .btn-col-10 {
+    padding: 10px; /* Padding of 10px */
+  }
+  
+  .btn-col-15 {
+    padding: 15px; /* Padding of 15px */
+  }
+  

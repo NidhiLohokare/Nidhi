@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buttons with Different Padding</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Include Custom CSS -->
+  <style>
+    /* Define padding for buttons */
+    .btn-col {
+      padding: 5px; /* Padding of 5px */
+    }
+
+    .btn-col-10 {
+      padding: 10px; /* Padding of 10px */
+    }
+
+    .btn-col-15 {
+      padding: 15px; /* Padding of 15px */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col btn-col">
+        <button type="button" class="btn btn-primary btn-my-small btn-block">small</button>
+      </div>
+      <div class="col btn-col-10">
+        <button type="button" class="btn btn-primary btn-my-medium btn-block">medium</button>
+      </div>
+      <div class="col btn-col-15">
+        <button type="button" class="btn btn-primary btn-my-large btn-block">large</button> 
+      </div>
+    </div>
+  </div>
+</body>
+</html>
