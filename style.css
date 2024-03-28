@@ -1,13 +1,159 @@
-/* Define padding for buttons */
-.btn-col {
-    padding: 5px; /* Padding of 5px */
-  }
-  
-  .btn-col-10 {
-    padding: 10px; /* Padding of 10px */
-  }
-  
-  .btn-col-15 {
-    padding: 15px; /* Padding of 15px */
-  }
-  
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a, .text-light {
+  color: #f0baba; /* Light Text Color */
+}
+
+.btn-primary {
+  background-color: #f08080; /* Light Pink Primary Button Color */
+  border-color: #f08080; /* Adjust border color if needed */
+}
+
+.btn-primary:hover {
+  background-color: #d76b70; /* Darker Pink on Hover */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header Styles */
+header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section Styles */
+#hero {
+  background-image: url("images/hero-background.jpg"); /* Replace with your desired background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.typed-text {
+  font-weight: bold;
+  overflow: hidden;
+  border-right: .15em solid orange; /* Typing effect animation */
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em; /* Adjust letter spacing for typing effect */
+  animation: typing 3.5s steps(40, end), blink 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from, to { opacity: 1 }
+  50% { opacity: 0 }
+}
+
+/* Main Content Styles */
+main {
+  padding-top: 80px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+/* Section Styles (Modify for specific sections) */
+#about,
+#skills,
+#portfolio,
+#contact {
+  padding: 50px 0;
+}
+
+.card {
+  background-color: #fffbfb;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+/* Contact Form Styles */
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+/* Modify these styles for different alert states */
+.alert {
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.alert-success {
+  background-color: #dff0d8;
+  color: #46b70c;
+}
+/* Carousel Styles */
+#imageCarousel {
+  max-width: 800px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the carousel horizontally */
+}
+
+.carousel-item img {
+  object-fit: cover; /* Ensure images fill the carousel container */
+  height: 400px; /* Adjust height as desired */
+}
+
+/* Optional: Adjust carousel navigation button styles */
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent; /* Transparent background */
+  border: none; /* Remove default border */
+  /* Adjust position and size as desired */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); /* Center buttons vertically */
+  width: 50px;
+  height: 50px;
+  opacity: 0.5; /* Semi-transparent initially */
+  transition: opacity 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1; /* Full opacity on hover */
+}
+
+.carousel-control-prev {
+  left: 10px; /* Adjust left position */
+}
+
+.carousel-control-next {
+  right: 10px; /* Adjust right position */
+}
+
+/* Optional: Style carousel indicators (dots) */
+.carousel-indicators {
+  bottom: -50px; /* Adjust position as desired */
+}
+
+.carousel-indicators li {
+  background-color: #ce7e7e; /* Adjust indicator color */
+  opacity: 0.5; /* Semi-transparent initially */
+  transition: opacity 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.carousel-indicators .active {
+  background-color: #007bff; /* Active indicator color */
+  opacity: 1; /* Full opacity for active indicator */
+}

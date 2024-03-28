@@ -3,38 +3,156 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Buttons with Different Padding</title>
-  <!-- Include Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <!-- Include Custom CSS -->
-  <style>
-    /* Define padding for buttons */
-    .btn-col {
-      padding: 5px; /* Padding of 5px */
-    }
-
-    .btn-col-10 {
-      padding: 10px; /* Padding of 10px */
-    }
-
-    .btn-col-15 {
-      padding: 15px; /* Padding of 15px */
-    }
-  </style>
+  <title>Nidhi Lohokare</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col btn-col">
-        <button type="button" class="btn btn-primary btn-my-small btn-block">small</button>
-      </div>
-      <div class="col btn-col-10">
-        <button type="button" class="btn btn-primary btn-my-medium btn-block">medium</button>
-      </div>
-      <div class="col btn-col-15">
-        <button type="button" class="btn btn-primary btn-my-large btn-block">large</button> 
-      </div>
+
+  <header class="bg-dark py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a href="#" class="navbar-brand text-light h1">Nidhi Lohokare</a>
+      <nav class="nav">
+        <a class="nav-link text-light" href="#about">About</a>
+        <a class="nav-link text-light" href="#skills">Skills</a>
+        <a class="nav-link text-light" href="#portfolio">Portfolio</a>
+        <a class="nav-link text-light" href="#contact">Contact</a>
+      </nav>
     </div>
-  </div>
-</body>
-</html>
+  </header>
+
+  <main class="container py-5">
+
+    <section id="hero" class="mb-5 text-center d-flex align-items-center justify-content-center vh-100">
+      <div class="container">
+        <h1 class="display-3 text-dark">I am a <span class="typed-text"></span></h1>
+        <p class="lead text-dark">UX & Product Designer .</p>
+        <a href="#about" class="btn btn-primary mt-3">Learn More</a>
+      </div>
+    </section>
+
+    <section id="about" class="mb-5">
+      <h2 class="text-center mb-4">About Me</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <img src="https://media.licdn.com/dms/image/D4E03AQEX1-2pTvJ_xQ/profile-displayphoto-shrink_800_800/0/1704511606519?e=2147483647&v=beta&t=CKxvq8n892dGWQ5AAxuqEfuELcyJw7XzCGnSdiUpdFE" alt="Your Profile Picture" class="img-fluid rounded-circle mx-auto d-block">
+        </div>
+        <div class="col-md-6">
+          <p class="lead">My journey in design began with a Bachelor's in Industrial/Product Design from MIT Institute of Design, where I cultivated critical thinking and aesthetic sensibilities. Currently pursuing a M.A in UX/UI Design at New York Institute of Technology, I'm refining my skills in responsive web design and user research. With a fusion of 3D modeling, manufacturing optimization, and UX/UI methodologies, I aim to create user-centric solutions that marry form and function seamlessly.
+
+            At SureView Instruments LLP, I thrived as an Assistant UX Designer, excelling in problem-solving and collaborative teamwork. My contributions to web and mobile applications for industrial automation were marked by iterative refinement and a keen understanding of user needs. Prior, as a Product Design Intern at MICROGRADE TOOLS, I optimized manufacturing processes and contributed to innovative product design through CAD and rapid prototyping techniques.
+            
+            My journey is driven by a passion for innovation and a commitment to creating impactful products that enhance user experiences. I look forward to leveraging my diverse skill set and collaborating with fellow designers and stakeholders to tackle real-world challenges in the realms of UX/UI and Industrial Design..</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="mb-5">
+      <h2 class="text-center mb-4">Skills</h2>
+      <p class="lead text-dark">User Experience Design- Adobe Indesign - Figma - FigJam - Adobe XD - Unity Design - GitHub - Artvive - Miximo - Lens Studio - Adobe Aero - Meta Spark - Alexa - Gravity Sketch - HTML - CSS
+        Industrial Design-  Adobe Photoshop - Adobe Illustrator - Fusion 360 - Rhino - Rhinoceros 3D - Keyshot .</p>
+
+      </section>
+
+    <section id="portfolio" class="mb-5">
+      <h2 class="text-center mb-4">Portfolio</h2>
+      <p class="lead text-dark">nidhilohokare.wixx.com .</p>
+      </section>
+
+    <section id="contact" class="mb-5">
+      <h2 class="text-center mb-4">Contact</h2>
+      <p>Provide your contact information  here.</p>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email/ Contact no.</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="
+          <section id="buttons" class="mb-5 text-center">
+            <h2>Buttons</h2>
+            <div class="d-flex justify-content-center">
+              <a href="#" class="btn btn-primary btn-sm me-3">Info</a>
+              <a href="#" class="btn btn-primary btn-md me-3">Contact</a>
+              <a href="#" class="btn btn-primary btn-lg">get Connected</a>
+            </div>
+          </section>
+          
+          <section id="cards" class="mb-5">
+            <h2>Cards</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="https://cdn.sanity.io/images/cctd4ker/production/b8a5e07c166342e1c7f6fe30b8c45d64fea69ea5-4096x2326.jpg?w=2048&q=75&fit=clip&auto=format" class="card-img-top" alt="Card Image 1">
+                  <div class="card-body">
+                    <h5 class="card-title">TIMELENS</h5>
+                    <p class="card-text">AR Museum App.</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Card Title without Image</h5>
+                    <p class="card-text">This is a card without an image. Use this for text-based content.</p>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <section id="alerts" class="mb-5">
+            <h2>Alerts</h2>
+            <div class="alert alert-success" role="alert">
+              This is a success alert message!
+            </div>
+            <div class="alert alert-info" role="alert">
+              This is an information alert message.
+            </div>
+            <div class="alert alert-warning" role="alert">
+              This is a warning alert message.
+            </div>
+            <div class="alert alert-danger" role="alert">
+              This is a danger alert message.
+            </div>
+          </section>
+          
+          <section id="carousel" class="mb-5">
+            <h2>Carousel</h2>
+            </section>
+        
+            <section id="carousel" class="mb-5">
+              <h2>Carousel</h2>
+              <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://www.metmuseum.org/-/media/images/perspectives/2023/9/updates-on-cultural-property/petrie-court_brett-beyer_2048x2048.jpg?h=1600&amp;iar=0&amp;mw=1600&amp;w=1600&amp;sc_lang=en&amp;hash=F961BEA72AE25DC48BECB6ED2755B091" class="d-block w-100" alt="Carousel Image 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://www.metmuseum.org/-/media/images/about-the-met/collection-areas/ancient-americas/department-page/promos/am_promo.jpg?as=1&mh=1380&mw=3040&sc_lang=en&hash=FAE27B212A3FDCA92048F0CD1954C716" class="d-block w-100" alt="Carousel Image 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://cdn.sanity.io/images/cctd4ker/production/b8a5e07c166342e1c7f6fe30b8c45d64fea69ea5-4096x2326.jpg?w=2048&q=75&fit=clip&auto=format" class="d-block w-100" alt="Carousel Image 3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </section>
+            
+          
